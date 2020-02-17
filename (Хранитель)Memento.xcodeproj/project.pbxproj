@@ -13,6 +13,11 @@
 		328C4A1A23FA771200E3F41F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 328C4A1823FA771200E3F41F /* Main.storyboard */; };
 		328C4A1C23FA771400E3F41F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 328C4A1B23FA771400E3F41F /* Assets.xcassets */; };
 		328C4A1F23FA771400E3F41F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 328C4A1D23FA771400E3F41F /* LaunchScreen.storyboard */; };
+		328C4A2723FA784300E3F41F /* LineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328C4A2623FA784300E3F41F /* LineModel.swift */; };
+		328C4A2923FA79B700E3F41F /* StateLinesMemento.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328C4A2823FA79B700E3F41F /* StateLinesMemento.swift */; };
+		328C4A2B23FA7A9D00E3F41F /* LinesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328C4A2A23FA7A9D00E3F41F /* LinesManager.swift */; };
+		328C4A2D23FA834000E3F41F /* CarrientState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328C4A2C23FA834000E3F41F /* CarrientState.swift */; };
+		328C4A2F23FA85A600E3F41F /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328C4A2E23FA85A600E3F41F /* DrawView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		328C4A1B23FA771400E3F41F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		328C4A1E23FA771400E3F41F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		328C4A2023FA771400E3F41F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		328C4A2623FA784300E3F41F /* LineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineModel.swift; sourceTree = "<group>"; };
+		328C4A2823FA79B700E3F41F /* StateLinesMemento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateLinesMemento.swift; sourceTree = "<group>"; };
+		328C4A2A23FA7A9D00E3F41F /* LinesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinesManager.swift; sourceTree = "<group>"; };
+		328C4A2C23FA834000E3F41F /* CarrientState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarrientState.swift; sourceTree = "<group>"; };
+		328C4A2E23FA85A600E3F41F /* DrawView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +68,16 @@
 			children = (
 				328C4A1223FA771200E3F41F /* AppDelegate.swift */,
 				328C4A1423FA771200E3F41F /* SceneDelegate.swift */,
-				328C4A1623FA771200E3F41F /* ViewController.swift */,
 				328C4A1823FA771200E3F41F /* Main.storyboard */,
 				328C4A1B23FA771400E3F41F /* Assets.xcassets */,
 				328C4A1D23FA771400E3F41F /* LaunchScreen.storyboard */,
 				328C4A2023FA771400E3F41F /* Info.plist */,
+				328C4A2623FA784300E3F41F /* LineModel.swift */,
+				328C4A2823FA79B700E3F41F /* StateLinesMemento.swift */,
+				328C4A2A23FA7A9D00E3F41F /* LinesManager.swift */,
+				328C4A2C23FA834000E3F41F /* CarrientState.swift */,
+				328C4A2E23FA85A600E3F41F /* DrawView.swift */,
+				328C4A1623FA771200E3F41F /* ViewController.swift */,
 			);
 			path = "(Хранитель)Memento";
 			sourceTree = "<group>";
@@ -140,7 +155,12 @@
 			files = (
 				328C4A1723FA771200E3F41F /* ViewController.swift in Sources */,
 				328C4A1323FA771200E3F41F /* AppDelegate.swift in Sources */,
+				328C4A2F23FA85A600E3F41F /* DrawView.swift in Sources */,
 				328C4A1523FA771200E3F41F /* SceneDelegate.swift in Sources */,
+				328C4A2D23FA834000E3F41F /* CarrientState.swift in Sources */,
+				328C4A2723FA784300E3F41F /* LineModel.swift in Sources */,
+				328C4A2923FA79B700E3F41F /* StateLinesMemento.swift in Sources */,
+				328C4A2B23FA7A9D00E3F41F /* LinesManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
