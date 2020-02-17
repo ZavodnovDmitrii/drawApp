@@ -13,11 +13,15 @@ class ViewController: UIViewController {
         
         let line = LinesManager.shared
         carrierState = CarrientState(linesManager: line)
-       
+        
     }
-
+    
     @IBAction func save(_ sender: Any) {
         carrierState.saveLine()
+    }
+    
+    @IBAction func clean(_ sender: Any) {
+        carrierState.clean(view: viewBoard)
     }
     
     @IBAction func lastLoad(_ sender: Any) {

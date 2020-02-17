@@ -16,7 +16,10 @@ class LinesManager {
     }
     
     func printLines(view: UIView) {
-        for v in view.layer.sublayers! {
+        
+        guard let viewLayer = view.layer.sublayers else { return }
+        
+        for v in viewLayer {
             v.removeFromSuperlayer()
         }
         
